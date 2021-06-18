@@ -1,0 +1,752 @@
+body{
+    margin: 0;
+}
+
+/*header starts here*/
+.header{
+    width: 100%;
+    padding: 20px 0px;
+    position: sticky;
+    top: 0px;
+    background-color: bisque;
+}
+.navbar{
+    width: 90%;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    width: 170px;
+}
+.menu-item a{
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    top: 8px;
+}
+.app-fea{
+    padding: 10px 20px;
+    margin-right: 5px;
+    width: 30px;
+}
+.app-fea:hover{
+    background-color: lightgray;
+    border-radius: 6px;
+}
+.review{
+    padding: 10px 20px;
+    margin-right: 5px;
+}
+.review:hover{
+    background-color: lightgray;
+    border-radius: 6px;
+}
+.it-works{
+    padding: 10px 20px;
+    margin-right: 5px;
+}
+.it-works:hover{
+    background-color: lightgray;
+    border-radius: 6px;
+}
+.faqs{
+    padding: 10px 20px;
+    margin-right: 5px;
+}
+.faqs:hover{
+    background-color: lightgray;
+    border-radius: 6px;
+}
+
+/*main starts here*/
+.main{
+    width: 100%;
+    padding: 50px 0px;
+}
+.main-elements-container{
+    width: 90%;
+    margin: 0px auto;
+}
+.intro-wrapper{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.intro{
+    width: 45%;
+    position: relative;
+    top: 80px;
+}
+.first-image{
+    width: 40%;
+}
+.first-heading{
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.desc{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.install-button{
+    width: 160px;
+    padding-top: 20px;
+    margin: 0px 8px;
+}
+.condition{
+    font-family: fantasy;
+}
+.second-para{
+    text-align: center;
+    margin: 0px auto;
+    padding: 50px 0px;
+    width: 750px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+/*App features*/
+#features-container{
+    margin: 10px 0px 50px 0px;
+}
+.first-icon-desc-wrapper{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.second-icon-desc-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.market-research{
+    display: flex;
+    width: 40%;
+}
+.web-development{
+    display: flex;
+    width: 40%;
+}
+.User-Experience{
+    display: flex;
+    width: 40%;
+}
+.Free-Consultations{
+    display: flex;
+    width: 40%;
+}
+.icon-desc h1{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.icon-desc p{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.flaticons{
+    width: 80px;
+    padding: 0px 15px;
+}
+/*clients and tickets*/
+.client-tickets-container{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px 50px 0px;
+}
+.second-image{
+    width: 40%;
+    padding-right: 15px;
+}
+.clients-para{
+    width: 40%;
+    padding-left: 15px;
+    position: relative;
+    top: 30px;
+}
+.client-para-heading{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.client-first-para{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.client-second-para{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.span1{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.span1 h1{
+    font-size: 80px;
+    color: rgb(226, 64, 64);
+}
+.span1 p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.span2{
+    display: inline-block;
+}
+.span2 h1{
+    font-size: 80px;
+    color: rgb(226, 64, 64);
+}
+.span2 p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*testimonials*/
+#testimonials{
+    width: 100%;
+    background-color: lightgray;
+}
+.testimonials-container{
+    width: 90%;
+    margin: 0px auto;
+    padding-top: 50px;
+}
+.testimonials-heading{
+    text-align: center;
+    padding: 0px 40px;
+    width: 65%;
+    margin: 0px auto;
+}
+.testimonials-heading h1{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.testimonials-heading p{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.review-container{
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.first-review{
+    width: 25%;
+    margin: 0px 5px;
+    padding: 16px;
+}
+.first-review:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    color: rgb(121, 45, 45);
+}
+.second-review{
+    width: 25%;
+    margin: 0px 5px;
+    padding: 16px;
+}
+.second-review:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    color: rgb(121, 45, 45);
+}
+.third-review{
+    width: 25%;
+    margin: 0px 5px;
+    padding: 16px;
+}
+.third-review:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    color: rgb(121, 45, 45);
+}
+.review-desc{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.name{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+/*how-it-works*/
+#how-it-works-container{
+    width: 90%;
+    margin: 0px auto;
+}
+.how-it-works-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0px 50px 0px;
+}
+.hiw-desc{
+    width: 40%;
+    position: relative;
+    top: 60px;
+    padding-left: 90px;
+}
+.watch-image{
+    width: 40%;
+    padding-left: 80px;
+}
+.hiw-desc h1{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hiw-desc p{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+
+/*user friendly interface*/
+.user-friendly-interface-container{
+    width: 90%;
+    margin: 0px auto;
+    padding: 100px 0px 50px 0px;
+}
+.user-friendly-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.lap-image{
+    width: 40%;
+    padding: 0px 20px 0px 0px;
+}
+.user-interface-desc{
+    width: 40%;
+    padding: 0px 0px 0px 20px;
+}
+.lap-image img{
+    width: 600px;
+}
+.user-first-heading{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+b{
+    color: rgb(226, 64, 64);
+}
+.user-first-para{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.user-second-para{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.user-second-heading{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*FAQs*/
+#FAQs-container{
+    width: 90%;
+    margin: 0px auto;
+}
+.question-heading-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ques-head{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ques-para{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 65%;
+    text-align: center;
+}
+
+.ques-ans-wrapper{
+    padding: 30px 0px 0px 0px;
+}
+.parts{
+    display: flex;
+    justify-content: space-around;
+}
+.questions{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.answer{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.grids{
+    width: 40%;
+}
+
+/*footer starts here*/
+.footer{
+    width: 100%;
+    padding: 50px 0px;
+}
+.footer-elements-container{
+    width: 90%;
+    margin: 0px auto;
+}
+.conclusion-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.conclusion-part-1{
+    width: 30%;
+}
+.conclusion-part-2{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.conclusion-part-1 h1{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.conclusion-part-1 p{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.list-heading{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lists{
+    list-style-type: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+}
+.last-para{
+    margin-left: 60px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.jthemes{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+@media screen and (max-width :768px){
+    /*main starts here*/
+    .intro-wrapper{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    .intro{
+        width: 100%;
+        position: relative;
+        top: 0px;
+    }
+    .first-image{
+        width: 100%;
+        padding: 30px 15px 0px 15px;
+    }
+    .first-heading{
+        font-size: 28px;
+        font-weight: 900;
+        text-align: center;
+        padding: 0px 15px;
+    }
+    .desc{
+        font-size: 14px;
+        text-align: center;
+    }
+    .install-button{
+        width: 120px;
+        margin: 0px 5px;
+    }
+    .btn-wrapper{
+        text-align: center;
+    }
+    .condition{
+        text-align: center;
+    }
+    .second-para{
+        width: 100%;
+        font-size: 14px;  
+    }
+    
+    /*App features*/
+    .first-icon-desc-wrapper{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+    .second-icon-desc-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .market-research{
+        width: 100%;
+    }
+    .web-development{
+        width: 100%;
+    }
+    .User-Experience{
+        width: 100%;
+    }
+    .Free-Consultations{
+        width: 100%;
+    }
+    .icon-desc h1{
+        font-size: 16px;
+    }
+    .icon-desc p{
+        font-size: 14px;
+    }
+    .flaticons{
+        width: 60px;
+    }
+
+    /*clients and tickets*/
+    .client-tickets-container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin: 40px 0px 50px 0px;
+    }
+    .second-image{
+        width: 100%;
+        padding-right: 0px;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .clients-para{
+        width: 100%;
+        padding-left: 0px;
+        position: relative;
+        top: 30px;
+        margin-bottom: 50px;
+    }
+    .client-para-heading{
+        font-size: 20px;
+    }
+    .client-first-para{
+        font-size: 14px;
+    }
+    .client-second-para{
+        font-size: 14px;
+    }
+    .span1{
+        display: inline-block;
+        padding: 0px 40px 0px 0px;
+    }
+    .span1 h1{
+        font-size: 40px;
+    }  
+    .span1 p{
+        font-size: 16px;
+    }
+    .span2{
+        display: inline-block;
+        padding: 0px 0px 0px 40px;
+    }
+    .span2 h1{
+        font-size: 40px;
+        color: rgb(226, 64, 64);
+    }
+    .span2 p{
+        font-size: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    /*testimonials*/
+    .testimonials-container{
+        width: 90%;
+        margin: 0px;
+    }
+    .testimonials-heading{
+        text-align: center;
+        padding: 0px 30px;
+        width: 100%;
+        margin: 0px auto;
+    }
+    .testimonials-heading h1{
+        font-size: 24px;
+    }
+    .testimonials-heading p{
+        font-size: 14px;
+    }
+    
+    .review-container{
+        margin: 0px 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0px;
+    }
+    .first-review{
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    .first-review:hover{
+        border-radius: 80px;
+    }
+    .second-review{
+        width: 100%;
+        margin: 0px;
+    }
+    .second-review:hover{
+        border-radius: 80px;
+    }
+    .third-review{
+        width: 100%;
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .third-review:hover{
+        border-radius: 80px;
+    }
+    .review-desc{
+        font-size: 12px;
+    }
+    .name{
+        font-size: 14px;
+    }
+
+    /*how-it-works*/
+    .how-it-works-wrapper{
+        display: flex;
+        flex-direction: column;
+        padding: 90px 0px 50px 0px;
+    }
+    .hiw-desc{
+        width: 100%;
+        position: relative;
+        top: 50px;
+        padding-left: 0px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .watch-image{
+        width: 100%;
+        padding-left:0px;
+        text-align: center;
+        padding-top: 40px;
+    }
+    .hiw-desc h1{
+        font-size: 21px;
+    }
+    .hiw-desc p{
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 1.5;
+    }
+
+    /*user friendly interface*/
+    .user-friendly-interface-container{
+        width: 90%;
+        margin: 0px auto;
+        padding: 50px 0px 50px 0px;
+    }
+    .user-friendly-wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .lap-image{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .user-interface-desc{
+        width: 100%;
+        padding: 0px;
+    }
+    .lap-image img{
+        width: 450px;
+    }
+    .user-first-heading{
+        font-size: 21px;
+    }
+    .user-first-para{
+        font-size: 12px;
+    }
+    .user-second-para{
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .user-second-heading{
+        font-size: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    /*FAQs*/
+    #FAQs-container{
+        margin: 50px auto;
+    }
+    .ques-head{
+        font-size: 22px;
+    }
+    .ques-para{
+        font-size: 13px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .ques-ans-wrapper{
+        padding: 30px 0px 0px 0px;
+    }
+    .parts{
+        display: flex;
+        flex-direction: column;
+    }
+    .questions{
+        font-size: 14px;
+    }
+    .answer{
+        font-size: 12px;
+    }
+    .grids{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    /*footer starts here*/
+    .footer{
+        padding: 0px;
+    }
+    .conclusion-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .conclusion-part-1{
+        width: 100%;
+    }
+    .conclusion-part-2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .conclusion-part-1 h1{
+        font-size: 20px;
+    }
+    .conclusion-part-1 p{
+        font-size: 12px;
+    }
+    .list-heading{
+        font-size: 16px;
+    }
+    .lists{
+        font-size: 12px;
+    }
+    .last-para{
+        margin-left: 0px;
+        font-size: 12px;
+    }
+
+}
